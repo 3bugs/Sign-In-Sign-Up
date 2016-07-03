@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true"
+          android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <stroke android:width="0dp"
+                    android:color="@color/bg_button"/>
+            <padding android:bottom="8dp"
+                     android:left="16dp"
+                     android:right="16dp"
+                     android:top="8dp"/>
+            <corners android:radius="0dp"/>
+            <solid android:color="@color/login"/>
+        </shape>
+    </item>
+    <item android:state_enabled="true"
+          android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:width="0dp"
+                    android:color="@color/bg_button"/>
+            <padding android:bottom="8dp"
+                     android:left="16dp"
+                     android:right="16dp"
+                     android:top="8dp"/>
+            <corners android:radius="0dp"/>
+            <solid android:color="@color/login_dim"/>
+        </shape>
+    </item>
+</selector>
